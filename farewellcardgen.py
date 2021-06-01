@@ -54,7 +54,7 @@ if Line1 == '' and Line3 == '':
         sys.exit()
 #saves output (Data) to a txt file (TheirNamedata.txt)
 Data = (f'Hi {TheirName},\n{Line1}  {Line2}  {Line3}  \nAll the best, -{MyName}')
-#comment next 3 lines if you want it to not save the output in a file (do this if in chromeos idle linux)
+#comment next 3 lines if you want it to not save the output in a file (do this if in chromeos idle linux etc. with no file access)
 #Datafile = open(f'{TheirName}data.txt', 'w')
 #Datafile.write(Data)
 #Datafile.close()
